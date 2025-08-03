@@ -1,0 +1,52 @@
+*{margin: 0;padding:0 ;}
+/*navigational style*/
+.navbar   {
+    height: 70px;
+    display: flex;
+    background-color: aliceblue;
+    color: black;
+    font-size: medium;
+}
+
+ul{
+    display: flex;
+    margin-left: 80px;
+    font-weight: bold;
+}
+
+li{
+    list-style: none; 
+    padding-left:70px ;
+    line-height: 70px;   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.header {
+    background-color: aliceblue;
+}
+img {
+    margin: 10px;
+    height:70% ;
+    width: 100%;
+
+}
+
+/*footer style*/
+footer {
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    height: 70px;
+    text-align: center;
+    text-decoration: ;
+}
+
+
+
+
+

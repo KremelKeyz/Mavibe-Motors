@@ -10,7 +10,7 @@ body{
     padding: 0;
 }
 .services {
-    background-color: rgb(238, 247, 243);
+    background-color: rgb(232, 235, 234);
     height: 100vh;
     
 }
@@ -25,6 +25,10 @@ body{
     max-width: 1500px;
     
 }
+.services-card h1 {
+    font-family: "Ubuntu", sans-serif;
+}
+
 .bat {
     padding: 10px;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
@@ -206,4 +210,14 @@ body{
     font-size: 14px;
     line-height: 1.5;
     color: #9ba4b7;
+}
+
+
+/* Responsive Design Section */
+@media screen and (max-width: 844px) 
+{
+    .services-card {
+        grid-template-columns: 1fr;
+        
+    }
 }

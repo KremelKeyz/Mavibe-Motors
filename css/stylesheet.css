@@ -217,6 +217,7 @@ body{
 @media screen and (max-width: 844px) 
 {
     .services-card {
+        
         grid-template-columns: 1fr;
         
     }

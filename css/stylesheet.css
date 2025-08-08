@@ -11,17 +11,16 @@ body{
 }
 .services {
     background-color: rgb(232, 235, 234);
-    height: 100vh;
+    height: 1000px;
     
 }
 .services-card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-self: center;
     margin: auto;
+    padding: 2rem;
     gap: 3rem;
     font-weight: 300;
-    padding: 10px;
     max-width: 1500px;
     
 }
@@ -216,9 +215,19 @@ body{
 /* Responsive Design Section */
 @media screen and (max-width: 844px) 
 {
+    .services {
+        height: inherit;
+    }
     .services-card {
-        
+
         grid-template-columns: 1fr;
-        
+        text-align: center;
+            
+    }
+    .services-card p {
+        font-size: 16px;
+    }
+    .bat-icon img {
+        margin: auto;
     }
 }

@@ -4,13 +4,18 @@
     padding: 0;
 }
 
+html {
+
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: "Fira Sans", sans-serif;
     margin: 0;
     padding: 0;
 }
 .services {
-    background-color: rgb(232, 235, 234);
+    background-color:#ebecf2;
     height: 1000px;
     
 }
@@ -18,7 +23,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: auto;
-    padding: 2rem;
+    padding: 20px;
     gap: 3rem;
     font-weight: 300;
     max-width: 1500px;
@@ -57,7 +62,7 @@ body{
 .bat p {
     font-size: 14px;
     line-height: 1.5;
-    color: #9ba4b7;
+    color: #959fb2;
 }
 
 .oil {

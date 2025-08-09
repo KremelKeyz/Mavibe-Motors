@@ -1,4 +1,4 @@
-*{margin: 0;padding:0 ;}
+
 /*navigational style*/
 .navbar   {
     height: 70px;
@@ -43,10 +43,243 @@ footer {
     font-weight: bold;
     height: 70px;
     text-align: center;
-    text-decoration: ;
+      }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Fira Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.services {
+    background-color:#ebecf2;
+    height: 1000px;
+    
+}
+.services-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    padding: 20px;
+    gap: 3rem;
+    font-weight: 300;
+    max-width: 1500px;
+    
+}
+.services-card h1 {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.bat {
+    padding: 10px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(54, 54, 54, 0.37);;
+}
+.bat-icon {
+   
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+.bat-icon img {
+    width: 100px;
+    height: 100px;
+ 
+}
+
+.bat h1 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.bat p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #959fb2;
+}
+
+.oil {
+    padding: 10px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(54, 54, 54, 0.37);;
+}
+
+.oil-icon {
+    border-radius: 5px;
+}
+
+.oil-icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.oil h1 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.oil p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #9ba4b7;
+}
+
+.tire {
+    padding: 10px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(54, 54, 54, 0.37);;
+}
+
+.tire-icon {
+    border-radius: 5px;
+}
+.tire-icon img {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.tire h1 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.tire p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #9ba4b7;
+}
+
+.Towing {
+    padding: 10px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(54, 54, 54, 0.37);;
+}
+
+.Towing-icon {
+
+    border-radius: 5px;
+}
+
+.Towing-icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.Towing h1 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.Towing p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #9ba4b7;
+}
+
+.repair {
+    padding: 10px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(54, 54, 54, 0.37);;
+}
+.repair-icon {
+    border-radius: 5px;
+}
+
+.repair-icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.repair h1 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.repair p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #9ba4b7;
+}
+
+.car-wash {
+    padding: 10px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(54, 54, 54, 0.37);;
+}
+
+.washing-icon {
+    border-radius: 5px;
+}
+
+.washing-icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.car-wash h1 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.car-wash p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #9ba4b7;
 }
 
 
+/* Responsive Design Section */
+@media screen and (max-width: 844px) 
+{
+    .services {
+        height: inherit;
+    }
+    .services-card {
 
-
+        grid-template-columns: 1fr;
+        text-align: center;
+            
+    }
+    .services-card p {
+        font-size: 16px;
+    }
+    .bat-icon img {
+        margin: auto;
+    }
+}
 
